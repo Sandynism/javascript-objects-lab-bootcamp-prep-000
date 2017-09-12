@@ -13,4 +13,5 @@ function deleteFromObjectByKey(object, key) {
   var Kenny = {}
   Object.assign(Kenny, object)
   delete Kenny[key]
+  return object
 }
